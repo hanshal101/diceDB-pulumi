@@ -1,0 +1,11 @@
+name: dice-db-test-aws
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: Testing DiceDB on aws
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
